@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--开启注解扫描，只扫描 controller -->
+    <context:component-scan base-package="com.controller">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!--&lt;!&ndash;配置视图解析器&ndash;&gt;-->
+    <!--<bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
+    <!--    <property name="suffix" value="/WEB-INF/pages/"-->
+    <!--</bean>-->
+
+    <!--&lt;!&ndash;过滤静态资源&ndash;&gt;-->
+    <!--<mvc:resources mapping="/css/**" location="/css/" />-->
+    <!--<mvc:resources mapping="/images/**" location="/images/" />-->
+    <!--<mvc:resources mapping="/js/**" location="/js/" />-->
+
+    <!--开启 SpringMvc 注解支持-->
+    <mvc:annotation-driven/>
+</beans>
