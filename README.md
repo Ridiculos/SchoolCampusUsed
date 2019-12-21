@@ -1,4 +1,5 @@
 # Vue + SSM 的校园二手交易平台
+## 既然已经点进来了，不如随手点个 Star 谢谢！
 ## 技术点
 #### Vue.js + Spring + SpringMVC + Mybatis + Mysql
 **项目需求中有 Redis、支付宝沙箱支付、Echarts 或 V-charts 图表等技术，待加入**
