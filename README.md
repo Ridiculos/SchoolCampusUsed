@@ -1,7 +1,7 @@
 # Vue + SSM 的校园二手交易平台
 ## 技术点
 #### Vue.js + Spring + SpringMVC + Mybatis + Mysql
-**项目需求中有 Redis、支付宝沙箱支付、Echarts 或 V-charts 图标等技术，待加入**
+**项目需求中有 Redis、支付宝沙箱支付、Echarts 或 V-charts 图表等技术，待加入**
 ## 对应后台项目
 [SchoolCampusUsedBack JSP校园二手交易系统后台，使用AdminLTE模板](https://github.com/jdassd/SchoolCampusUsedBack)
 **需要用到后台的话，可以额外部署这个后台项目，后台的前后端使用的是 JSP + Servlet 持久层使用 Mybatis 数据库为 Mysql**
