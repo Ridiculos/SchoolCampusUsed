@@ -17,7 +17,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <spring.version>5.0.2.RELEASE</spring.version>
+    <spring.version>5.2.3.RELEASE</spring.version>
     <log4j.version>1.2.12</log4j.version>
     <mysql.version>5.1.6</mysql.version>
     <mybatis.version>3.4.5</mybatis.version>
