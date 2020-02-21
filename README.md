@@ -47,6 +47,10 @@ npm install -g serve
 这个项目目前发现而没有解决的 BUG 有：
 1. 未登录但可以通过链接访问到个人中心，以及登录后可以通过链接访问到登录和注册页面。
 2. 其他一些 BUG ，但基本不影响使用。
+## 捐赠
+|捐赠人|金额(RMB)|渠道|时间|留言|
+|:-:|:-:|:-:|:-:|:-:|
+|MH2319916121（微信）|20|微信支付|2020.1.5|买杯奶茶或者咖啡喝喝|
 ## 联系 
 #### 微信 And QQ
 <img src="https://github.com/jdassd/imgRepository/blob/master/%E6%B7%BB%E5%8A%A0%E5%BE%AE%E4%BF%A1%E5%A5%BD%E5%8F%8B%E7%A0%81.jpg" width="200" hegiht="200" alt="微信添加好友码" /><img src="https://github.com/jdassd/imgRepository/blob/master/%E6%B7%BB%E5%8A%A0QQ%E5%A5%BD%E5%8F%8B%E7%A0%81.jpg" width="200" hegiht="200" alt="QQ添加好友码" />
