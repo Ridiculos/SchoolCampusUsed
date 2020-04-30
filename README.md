@@ -52,6 +52,8 @@ npm install -g serve
 |:-:|:-:|:-:|:-:|:-:|
 |MH2319916121（微信）|20|微信支付|2020.1.5|买杯奶茶或者咖啡喝喝|
 |foreverdreamer_sdy（微信）|20|微信支付|2020.4.29|请您喝个奶茶|
+|hms1997716（微信）|20|微信支付|2020.4.30|感谢感谢|
+
 ## 联系 
 #### 微信 And QQ
 <img src="https://github.com/jdassd/imgRepository/blob/master/%E6%B7%BB%E5%8A%A0%E5%BE%AE%E4%BF%A1%E5%A5%BD%E5%8F%8B%E7%A0%81.jpg" width="200" hegiht="200" alt="微信添加好友码" /><img src="https://github.com/jdassd/imgRepository/blob/master/%E6%B7%BB%E5%8A%A0QQ%E5%A5%BD%E5%8F%8B%E7%A0%81.jpg" width="200" hegiht="200" alt="QQ添加好友码" />
