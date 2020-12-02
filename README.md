@@ -7,7 +7,7 @@
 ### jsp 版本
 [SchoolCampusUsedBack JSP校园二手交易系统后台，使用AdminLTE模板](https://github.com/jdassd/SchoolCampusUsedBack)
 **需要用到后台的话，可以额外部署这个后台项目，后台的前后端使用的是 JSP + Servlet 持久层使用 Mybatis 数据库为 Mysql**
-### D2Admin + SpringBoot + Vue.js
+### D2Admin + SpringBoot + Vue.js 版本
 **修改中**
 ## 展示
 #### 首页
