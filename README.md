@@ -2,10 +2,13 @@
 ## 既然已经点进来了，不如随手点个 Star 谢谢！
 ## 技术点
 #### Vue.js + Spring + SpringMVC + Mybatis + Mysql
-**项目需求中有 Redis、支付宝沙箱支付、Echarts 或 V-charts 图表等技术，待加入**
+**项目需求中有 Redis、支付宝沙箱支付、Echarts 或 V-charts 等技术，可依据此项目为基础，自行添加**
 ## 对应后台项目
+### jsp 版本
 [SchoolCampusUsedBack JSP校园二手交易系统后台，使用AdminLTE模板](https://github.com/jdassd/SchoolCampusUsedBack)
 **需要用到后台的话，可以额外部署这个后台项目，后台的前后端使用的是 JSP + Servlet 持久层使用 Mybatis 数据库为 Mysql**
+### D2Admin + SpringBoot + Vue.js
+**修改中**
 ## 展示
 #### 首页
 ![](https://github.com/jdassd/imgRepository/blob/master/TIM%E6%88%AA%E5%9B%BE20191220203515.png)
@@ -41,6 +44,17 @@ npm install -g serve
 7. 先确保第 2 步已经映射成功，再启动名为 spring 的 tomcat，最后启动 dev
 8. 如果在控制台输出中无误，可以打开 [这里](http://localhost:8080) 查看效果。**如果你在第 1 步修改了 Vue 的端口，那么点击这里将无效。**
 ## FAQ
+#### 前后端已经跑起来了，为什么数据不能交互？
+1. 未修改配置文件，未配置自己的数据库密码
+2. 未导入数据库
+3. 后端端口配置错误，应为 8083
+4. 跨域问题（CORS）：打开浏览器控制台发现抱错，其中有关键字 CORS ，则为跨域问题，实际上本项目前后端已经配置了跨域解决方案，但不同机器运行时，还是出现了这个问题，如果出现这个问题，可参照：[解决 SpringBoot + Vue.js 前后端跨域问题](https://www.ymjhnb.top/archives/vuejs%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0#springboot-%E4%B8%8E-axios-%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98) 中的 “SpringBoot 与 Axios 跨域问题” 部分
+#### 商品图片不能显示？
+问题原因：本地“图床”未打开或文件放置不正确或数据库内图片 url 未修改
+关于文件放置不正确：图片文件应放于 9090.bat 同级文件夹下，不再多创建文件夹保存图片文件
+#### 有没有默认的商品图资源？
+链接：https://pan.baidu.com/s/1CEbAdGYbUGUAkzxqg5HhPg 
+提取码：ap7g 
 #### 为什么这个项目跑起来报错？
 如果你的项目已经跑起来了，而不能访问到首页，你可以尝试切换 Tomcat 版本，这个项目构建时的版本为 Tomcat-8.5.46
 #### 我发现这个项目有个 BUG ？
