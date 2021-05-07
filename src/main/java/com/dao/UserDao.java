@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public interface UserDao {
     /*查询功能*/
-    //查询所有的用户，在测试一下，在github
+    //查询所有的用户
     @Select("select * from users")
     List<User> findAll();
     //根据ID查询单个
