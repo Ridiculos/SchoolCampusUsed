@@ -10,6 +10,7 @@ import java.util.List;
 public interface UserDao {
     /*查询功能*/
     //查询所有的用户，不想在改了
+    //给我冲突把
     @Select("select * from users")
     List<User> findAll();
     //根据ID查询单个
